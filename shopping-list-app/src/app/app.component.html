@@ -1,2 +1,6 @@
-<h1>{{title}}</h1>
-<h2>{{foodItem.name}}</h2>
+<h1 id="app-title">{{title}}</h1>
+<ul class="shopping-list">
+  <li *ngFor="let foodItem of foodItems" class="item">
+    {{foodItem.name}}
+  </li>
+</ul>

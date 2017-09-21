@@ -2,6 +2,14 @@ import { Component }  from '@angular/core';
 
 import { FoodItem }   from './foodItem';
 
+const FOODITEMS: FoodItem[] = [
+  { id: 1, name: "banana" },
+  { id: 2, name: "carrot" },
+  { id: 3, name: "apple" },
+  { id: 4, name: "strawberry" },
+  { id: 5, name: "orange" }
+]
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,8 +17,5 @@ import { FoodItem }   from './foodItem';
 })
 export class AppComponent {
   title = 'Shopping List App';
-  foodItem: FoodItem = {
-    id: 1,
-    name: 'banana'
-  };
+  foodItems = FOODITEMS;
 }
