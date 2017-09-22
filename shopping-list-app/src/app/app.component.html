@@ -1,6 +1,23 @@
 <h1 class="page-title">{{title}}</h1>
+<!-- start router outlet here eventually -->
 <ul class="shopping-list">
   <li *ngFor="let foodItem of foodItems" class="item">
     {{foodItem.name}}
   </li>
 </ul>
+<!-- end router outlet -->
+<nav>
+  <div class="container-fluid">
+    <div class="row nav-link-wrapper">
+      <div class="col">
+        <a routerLink="/browse" routerLinkActive="active" class="nav-link">Browse</a>
+      </div>
+      <div class="col">
+        <a routerLink="/my-list" routerLinkActive="active" class="nav-link">My List</a>
+      </div>
+      <div class="col">
+        <a routerLink="/search" routerLinkActive="active" class="nav-link">Search</a>
+      </div>
+    </div>
+  </div>
+</nav>

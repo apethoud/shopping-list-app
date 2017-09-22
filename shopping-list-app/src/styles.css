@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #a79c62;
+  background-color: #aaa;
 }
 
 #app-title {
@@ -27,6 +27,24 @@ header {
   text-align: center;
 }
 
+nav {
+  width: 100vw;
+  background-color: #aaa;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+}
+
+.nav-link-wrapper {
+  background-color: #aaa;
+}
+
+.nav-link {
+  text-align: center;
+  font-size: 12px;
+}
+
+/* eventually move this to its own component-specific file */
 .shopping-list {
   width: 90vw;
   margin: 0 auto;
