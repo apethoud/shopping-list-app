@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #aaa;
+  background-color: #555;
 }
 
 #app-title {
@@ -25,23 +25,25 @@ header {
 .page-title {
   font-family: 'Merriweather', serif;
   text-align: center;
+  font-size: 24px;
+  margin: 12px;
 }
 
 nav {
   width: 100vw;
-  background-color: #aaa;
-  color: #fff;
+  background-color: #555;
   position: fixed;
   bottom: 0;
 }
 
 .nav-link-wrapper {
-  background-color: #aaa;
+  background-color: #555;
 }
 
-.nav-link {
+a.nav-link {
   text-align: center;
   font-size: 12px;
+  color: #fff;
 }
 
 /* eventually move this to its own component-specific file */
