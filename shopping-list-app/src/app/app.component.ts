@@ -16,6 +16,6 @@ const FOODITEMS: FoodItem[] = [
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Shopping List App';
+  title = 'Shopping List';
   foodItems = FOODITEMS;
 }

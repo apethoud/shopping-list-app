@@ -6,12 +6,30 @@
   font-family: 'Montserrat', serif;
 }
 
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #a79c62;
+}
+
 #app-title {
+  margin: 0;
+  padding: 6px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+
+.page-title {
   font-family: 'Merriweather', serif;
+  text-align: center;
 }
 
 .shopping-list {
   width: 90vw;
+  margin: 0 auto;
   padding: 0;
 }
 
