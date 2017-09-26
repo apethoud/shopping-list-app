@@ -1,6 +1,9 @@
 <h1 class="page-title">{{title}}</h1>
 <ul class="row browse-list">
   <li *ngFor="let foodItem of foodItems" class="col-4">
-    <div class="item">{{foodItem.name}}</div>
+    <div class="item">
+      <img src="{{foodItem.iconPath}}" alt="">
+      <div class="title">{{foodItem.name}}</div>
+    </div>
   </li>
 </ul>
