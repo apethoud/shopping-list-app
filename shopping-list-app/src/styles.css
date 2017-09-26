@@ -45,3 +45,7 @@ a.nav-link {
   font-size: 12px;
   color: #fff;
 }
+
+.nav-spacing-fix {
+  height: 10vh;
+}
