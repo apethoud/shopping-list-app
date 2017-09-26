@@ -1,0 +1,17 @@
+.browse-list {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.browse-list li {
+  padding: 5px;
+}
+
+.browse-list .item {
+  background-color: #eee;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px 1px #aaa;
+}
